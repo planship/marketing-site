@@ -53,7 +53,7 @@
     <div class="text-center lg:text-left max-lg:mx-auto">
       <img class="w-1/4 md:w-1/5 max-lg:mx-auto" src="$lib/images/planship-logo.svg" alt="Planship logo consisting of a cargo ship hoisting a shipping container" />
       <h1 class="lg:mt-2 text-primary text-5xl font-bold">Planship</h1>
-      <p class="text-xl py-2 font-semibold text-neutral-600">SaaS plan and subscription <code>code</code> made easy.</p>
+      <p class="text-xl py-2 font-semibold text-neutral-600">SaaS plan and subscription <code class="text-secondary">code</code> made easy.</p>
     </div>
     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-primary text-primary-content my-8 md:my-0">
       <div class="card-body">

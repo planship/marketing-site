@@ -1,5 +1,6 @@
 <script>
   import { page } from '$app/stores';
+  import { dev } from '$app/environment';
   import '../app.css';
 
   $: title = typeof $page.data.title !== 'undefined' ? $page.data.title : 'Separate SaaS subscription logic from product code';
@@ -11,6 +12,10 @@
   <title>{title} | Planship</title>
   <meta name="description" content="{description}"/>
   <meta name="keywords" content="{keywords}"/>
+
+  {#if !dev}
+    <script async src="https://cloud.umami.is/script.js" data-website-id="39e67e9e-ebe9-43b3-bce8-6a40d55c0b79"></script>
+  {/if}
 </svelte:head>
 
 <slot />
