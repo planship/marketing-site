@@ -14,7 +14,7 @@
   <meta name="keywords" content="{keywords}"/>
 
   {#if !dev}
-    <script async src="https://us.umami.is/script.js" data-website-id="39e67e9e-ebe9-43b3-bce8-6a40d55c0b79"></script>
+    <script async src="https://metrics.planship.io/script.js" data-website-id="0bf4a77b-8de8-4bf6-b135-43f15ec593e9"></script>
   {/if}
 </svelte:head>
 
